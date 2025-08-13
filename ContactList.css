@@ -1,0 +1,33 @@
+.contactlist-container {
+  width: 25%;
+  height: 100vh;
+  background-color: #ededed;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactlist-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contactlist-user {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.contactlist-user:hover {
+  background-color: #d1d1d1;
+}
+
+.contactlist-user:active {
+  background-color: #bdbdbd;
+}
